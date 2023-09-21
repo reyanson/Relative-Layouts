@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+<!-- Button-1 code   -->
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BUTTON1"
+        android:gravity="left"
+
+        />
+    <!-- Button-2 code   -->
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BUTTON2"
+        android:layout_toRightOf="@id/btn5"
+        android:layout_marginTop="47mm"
+        android:layout_marginLeft="5mm"
+        />
+
+
+
+
+    <!-- Button-3 code   -->
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BUTTON3"
+        android:layout_below="@id/btn1"
+        android:layout_marginTop="40mm" />
+
+    <!-- Button-4 code   -->
+    <Button
+        android:id="@+id/btn4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BUTTON4"
+        android:layout_below="@id/btn6"
+
+        android:gravity="bottom|center"
+
+        />
+
+    <!-- Button-5 code   -->
+    <Button
+        android:layout_toRightOf="@id/btn3"
+        android:id="@+id/btn5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BUTTON5"
+        android:layout_below="@id/btn1"
+        android:layout_marginTop="40mm"
+        android:layout_marginLeft="6mm"
+        />
+
+    <!-- Button-6 code   -->
+    <Button
+        android:id="@+id/btn6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BUTTON6"
+        android:layout_below="@id/btn5"
+        android:layout_marginTop="40mm"
+        android:layout_marginLeft="22mm"
+        />
+
+    <!-- Button-7 code   -->
+    <Button
+        android:id="@+id/btn7"
+        android:layout_width="50mm"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/btn1"
+        android:text="BUTTON7"
+        android:layout_marginLeft="10dp"
+        />
+
+
+
+
+</RelativeLayout>
